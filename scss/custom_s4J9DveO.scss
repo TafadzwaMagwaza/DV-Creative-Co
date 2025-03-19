@@ -1,0 +1,191 @@
+/* 
+Compile this file to css/custom_s4J9DveO.css using any SCSS preprocessor. 
+More information here: https://slides.gitbook.io/manual/scss
+*/
+
+@import "mixins.scss"; 
+@import "variables.scss";
+@import "variables-custom.scss";
+
+/* Panel Top 04 */
+[data-cid="panel-top-04-3fe83697"] .panel, .panel[data-cid="panel-top-04-3fe83697"]{
+  ul.menu{
+  	padding: 0 12px 0 117px !important; 
+  }
+  .menuLine{
+  	opacity: 0;
+    max-width: 80%;
+    border-bottom: 2px solid white !important;
+    margin: auto;
+    padding-top: 7px;
+    transition: all 0.15s;
+	}
+	ul.menu li{
+  	opacity: .5;
+    transition: all .15s;
+    &:hover, &:active, &:focus{
+    	opacity: 1;
+      transition: all .15s;
+      .menuLine{
+     		opacity: 1 !important;
+      	transition: all 0.15s;
+    }
+    }
+  }
+  .customBlueButton:hover{
+       &:hover{
+    	opacity: .8;
+    	transition: al .15s; 
+    }
+  }
+}
+	.panel{
+   padding: 10px 9%; 
+  }
+
+/* Practitioners (#2) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-164-252ea515"] */
+.slide[data-cid="slide-164-252ea515"]{
+  .box-164{
+    border-radius: 0;
+  }
+  .controller-164{
+    position: absolute;
+    top:50px;
+    right: 50px;
+    background: $customGreenColor;
+    li{
+      padding:0;
+      height: 4px;
+      width: 4px;
+      border-radius: 50%;
+      background: $default-white-color;
+      opacity: .2;
+      margin: 0 5px;
+      vertical-align:middle;
+      transition: .15s;
+      &.selected, &:hover{
+        transform:scale(1.66);
+      }
+      &.selected{
+        background: teal;
+        opacity: 1;
+      }
+      &:after{
+        display: none;
+      }
+    }
+    @include media($tablet, max) {
+      top: 40px;
+      right: 30px;
+    }
+    @include media($phablet, max) {
+      top:100%;
+      right:0;
+      left:0;
+      line-height:80px;
+    }
+  }
+  .next-164, .prev-164{
+    height: 152px;
+    width: 152px;
+    z-index:10;
+    transition: .15s;
+    
+    &:hover{
+      background: teal;
+    }
+        @include media(936px, max) {
+      height: 100px;
+      width: 100px;
+    }
+    @include media(800px, max) {
+      height: 70px;
+      width: 70px;
+    }
+  }
+  .prev-164{
+    border-radius: 0;
+    @include media($phablet, max) {
+      bottom:auto !important;
+      right:auto !important;
+      top:100%;
+      left:0; 
+      border-radius: 0;
+    }
+  }
+  .next-164{
+    border-radius: 0;
+    @include media($phablet, max) {
+      bottom:auto !important;
+      left:auto !important;
+      top:0;
+      right:0; 
+      border-radius: 0;
+      
+    }
+  }
+  .slider-164 img{
+    @include media($phablet, min) {
+      border-bottom-left-radius: 0 !important;
+    }
+    @include media($phablet, max) {
+      border-top-left-radius: 0 !important;
+      border-top-right-radius: 0 !important;
+    }
+  }
+    a.button.teal:hover{
+    span{
+    color: teal !important;
+    transition: all .25s;
+    }
+  }
+}
+
+/* Slide 68 (#3) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-68-64d15316"] */
+.slide[data-cid="slide-68-64d15316"]{
+  .flex-68 a {
+    display: inline-block;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    opacity: 0.9;
+    transition: opacity 0.1s ease-in, transform 0.15s cubic-bezier(0.5, 0, 0.25, 2.5);
+    &:hover {
+      opacity: 1;
+      transform: scale(1.05);
+    }
+  }
+  &.whiteSlide .tintLogos {
+    filter: brightness(0.2);
+  }
+  &:not(.whiteSlide) .tintLogos {
+    filter: brightness(1.3);
+  }
+}
+
+/* Slide 126 (#4) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-126-84940b05"] */
+.slide[data-cid="slide-126-84940b05"]{
+  .star-126.checked{
+    fill: $amber !important;
+  }
+  &.whiteSlide{
+    .star-126{
+      fill: $gray !important;
+      &.checked{
+        fill: $amber !important;
+      }
+    }
+  }
+}
+
+/* Slide 161 (#5) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-161-d493b19b"] */
+.slide[data-cid="slide-161-d493b19b"]{
+  .box-161{
+    width: 120px;
+    height: 120px;
+    line-height:120px;
+  }
+}

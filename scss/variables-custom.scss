@@ -1,0 +1,17 @@
+$dark: #132d21;
+@include generateColors('dark',$dark);
+$buttonColor: #202020;
+@include generateColors('buttonColor',$buttonColor);
+$black: #202020;
+@include generateColors('black',$black);
+$red: #f43636;
+$white: #ffffff;
+@include generateColors('white',$white);
+$customGreenColor: #132d2a;
+@include generateColors('customGreenColor',$customGreenColor);
+$customGreenColor-2: #2a423f;
+@include generateColors('customGreenColor-2',$customGreenColor-2);
+$customGrayColor: #e9e9e9;
+@include generateColors('customGrayColor',$customGrayColor);
+$customGrayColor-2: #e7eaea;
+@include generateColors('customGrayColor-2',$customGrayColor-2);

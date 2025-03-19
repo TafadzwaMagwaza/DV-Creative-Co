@@ -1,0 +1,40 @@
+/* 
+Compile this file to css/custom_jITDEWVZ.css using any SCSS preprocessor. 
+More information here: https://slides.gitbook.io/manual/scss
+*/
+
+@import "mixins.scss"; 
+@import "variables.scss";
+@import "variables-custom.scss";
+
+/* Slide 70 (#2) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-70-b03a3227"] */
+.slide[data-cid="slide-70-b03a3227"]{
+  .info-70 {
+    padding: 13%;
+  }
+}
+
+/* Slide 70 (#3) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-70-4f1556a2"] */
+.slide[data-cid="slide-70-4f1556a2"]{
+  .info-70 {
+    padding: 13%;
+  }
+}
+
+/* Slide 141 (#4) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-141-5ec45a41"] */
+.slide[data-cid="slide-141-5ec45a41"]{
+  .box-141-center{
+    @include media($phablet, max) {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+  .box-141-right{
+    @include media($tablet, min) {
+      margin-top:-100px;
+    }
+  }
+}

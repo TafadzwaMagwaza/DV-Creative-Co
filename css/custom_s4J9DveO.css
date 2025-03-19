@@ -1,0 +1,179 @@
+/* Panel Top 04 */
+[data-cid=panel-top-04-3fe83697] .panel ul.menu, .panel[data-cid=panel-top-04-3fe83697] ul.menu {
+  padding: 0 12px 0 117px !important;
+}
+[data-cid=panel-top-04-3fe83697] .panel .menuLine, .panel[data-cid=panel-top-04-3fe83697] .menuLine {
+  opacity: 0;
+  max-width: 80%;
+  border-bottom: 2px solid white !important;
+  margin: auto;
+  padding-top: 7px;
+  transition: all 0.15s;
+}
+[data-cid=panel-top-04-3fe83697] .panel ul.menu li, .panel[data-cid=panel-top-04-3fe83697] ul.menu li {
+  opacity: 0.5;
+  transition: all 0.15s;
+}
+[data-cid=panel-top-04-3fe83697] .panel ul.menu li:hover, [data-cid=panel-top-04-3fe83697] .panel ul.menu li:active, [data-cid=panel-top-04-3fe83697] .panel ul.menu li:focus, .panel[data-cid=panel-top-04-3fe83697] ul.menu li:hover, .panel[data-cid=panel-top-04-3fe83697] ul.menu li:active, .panel[data-cid=panel-top-04-3fe83697] ul.menu li:focus {
+  opacity: 1;
+  transition: all 0.15s;
+}
+[data-cid=panel-top-04-3fe83697] .panel ul.menu li:hover .menuLine, [data-cid=panel-top-04-3fe83697] .panel ul.menu li:active .menuLine, [data-cid=panel-top-04-3fe83697] .panel ul.menu li:focus .menuLine, .panel[data-cid=panel-top-04-3fe83697] ul.menu li:hover .menuLine, .panel[data-cid=panel-top-04-3fe83697] ul.menu li:active .menuLine, .panel[data-cid=panel-top-04-3fe83697] ul.menu li:focus .menuLine {
+  opacity: 1 !important;
+  transition: all 0.15s;
+}
+[data-cid=panel-top-04-3fe83697] .panel .customBlueButton:hover:hover, .panel[data-cid=panel-top-04-3fe83697] .customBlueButton:hover:hover {
+  opacity: 0.8;
+  transition: al 0.15s;
+}
+
+.panel {
+  padding: 10px 9%;
+}
+
+/* Practitioners (#2) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-164-252ea515"] */
+.slide[data-cid=slide-164-252ea515] .box-164 {
+  border-radius: 0;
+}
+.slide[data-cid=slide-164-252ea515] .controller-164 {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  background: #132d2a;
+}
+.slide[data-cid=slide-164-252ea515] .controller-164 li {
+  padding: 0;
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  background: #fff;
+  opacity: 0.2;
+  margin: 0 5px;
+  vertical-align: middle;
+  transition: 0.15s;
+}
+.slide[data-cid=slide-164-252ea515] .controller-164 li.selected, .slide[data-cid=slide-164-252ea515] .controller-164 li:hover {
+  transform: scale(1.66);
+}
+.slide[data-cid=slide-164-252ea515] .controller-164 li.selected {
+  background: teal;
+  opacity: 1;
+}
+.slide[data-cid=slide-164-252ea515] .controller-164 li:after {
+  display: none;
+}
+@media (max-width: 1023px) {
+  .slide[data-cid=slide-164-252ea515] .controller-164 {
+    top: 40px;
+    right: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .slide[data-cid=slide-164-252ea515] .controller-164 {
+    top: 100%;
+    right: 0;
+    left: 0;
+    line-height: 80px;
+  }
+}
+.slide[data-cid=slide-164-252ea515] .next-164, .slide[data-cid=slide-164-252ea515] .prev-164 {
+  height: 152px;
+  width: 152px;
+  z-index: 10;
+  transition: 0.15s;
+}
+.slide[data-cid=slide-164-252ea515] .next-164:hover, .slide[data-cid=slide-164-252ea515] .prev-164:hover {
+  background: teal;
+}
+@media (max-width: 935px) {
+  .slide[data-cid=slide-164-252ea515] .next-164, .slide[data-cid=slide-164-252ea515] .prev-164 {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media (max-width: 799px) {
+  .slide[data-cid=slide-164-252ea515] .next-164, .slide[data-cid=slide-164-252ea515] .prev-164 {
+    height: 70px;
+    width: 70px;
+  }
+}
+.slide[data-cid=slide-164-252ea515] .prev-164 {
+  border-radius: 0;
+}
+@media (max-width: 767px) {
+  .slide[data-cid=slide-164-252ea515] .prev-164 {
+    bottom: auto !important;
+    right: auto !important;
+    top: 100%;
+    left: 0;
+    border-radius: 0;
+  }
+}
+.slide[data-cid=slide-164-252ea515] .next-164 {
+  border-radius: 0;
+}
+@media (max-width: 767px) {
+  .slide[data-cid=slide-164-252ea515] .next-164 {
+    bottom: auto !important;
+    left: auto !important;
+    top: 0;
+    right: 0;
+    border-radius: 0;
+  }
+}
+@media (min-width: 768px) {
+  .slide[data-cid=slide-164-252ea515] .slider-164 img {
+    border-bottom-left-radius: 0 !important;
+  }
+}
+@media (max-width: 767px) {
+  .slide[data-cid=slide-164-252ea515] .slider-164 img {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+  }
+}
+.slide[data-cid=slide-164-252ea515] a.button.teal:hover span {
+  color: teal !important;
+  transition: all 0.25s;
+}
+
+/* Slide 68 (#3) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-68-64d15316"] */
+.slide[data-cid=slide-68-64d15316] .flex-68 a {
+  display: inline-block;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  opacity: 0.9;
+  transition: opacity 0.1s ease-in, transform 0.15s cubic-bezier(0.5, 0, 0.25, 2.5);
+}
+.slide[data-cid=slide-68-64d15316] .flex-68 a:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+.slide[data-cid=slide-68-64d15316].whiteSlide .tintLogos {
+  filter: brightness(0.2);
+}
+.slide[data-cid=slide-68-64d15316]:not(.whiteSlide) .tintLogos {
+  filter: brightness(1.3);
+}
+
+/* Slide 126 (#4) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-126-84940b05"] */
+.slide[data-cid=slide-126-84940b05] .star-126.checked {
+  fill: #FFC107 !important;
+}
+.slide[data-cid=slide-126-84940b05].whiteSlide .star-126 {
+  fill: #9D9D9D !important;
+}
+.slide[data-cid=slide-126-84940b05].whiteSlide .star-126.checked {
+  fill: #FFC107 !important;
+}
+
+/* Slide 161 (#5) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-161-d493b19b"] */
+.slide[data-cid=slide-161-d493b19b] .box-161 {
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+}

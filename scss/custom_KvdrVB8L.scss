@@ -1,0 +1,301 @@
+/* 
+Compile this file to css/custom_KvdrVB8L.css using any SCSS preprocessor. 
+More information here: https://slides.gitbook.io/manual/scss
+*/
+
+@import "mixins.scss"; 
+@import "variables.scss";
+@import "variables-custom.scss";
+
+/* Panel Top 04 */
+[data-cid="panel-top-04-3fe83697"] .panel, .panel[data-cid="panel-top-04-3fe83697"]{
+  ul.menu{
+  	padding: 0 12px 0 117px !important; 
+  }
+  .menuLine{
+  	opacity: 0;
+    max-width: 80%;
+    border-bottom: 2px solid white !important;
+    margin: auto;
+    padding-top: 7px;
+    transition: all 0.15s;
+	}
+	ul.menu li{
+  	opacity: .5;
+    transition: all .15s;
+    &:hover, &:active, &:focus{
+    	opacity: 1;
+      transition: all .15s;
+      .menuLine{
+     		opacity: 1 !important;
+      	transition: all 0.15s;
+    }
+    }
+  }
+  .customBlueButton:hover{
+       &:hover{
+    	opacity: .8;
+    	transition: al .15s; 
+    }
+  }
+}
+	.panel{
+   padding: 10px 9%; 
+  }
+
+/* First Screen (#1) */
+.slide[data-cid="slide-14-c08ec5a8"]{
+  a{
+   max-width: 125px;
+   padding: 14px 20px !important;
+  }
+  .button.stroke.small{
+   border: 2px solid !important;
+    padding: 12px 20px !important;
+  }
+  @media(max-width: $phablet){
+    a{
+     min-width: 128px;
+     padding: 14px 20px !important;
+    }
+    .button.stroke.small{
+     border: 2px solid !important;
+     padding: 12px 20px !important;
+    }
+  }
+}
+
+/* Services (#2) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-49-f307afd3"] */
+.slide[data-cid="slide-49-f307afd3"]{
+  .flex-49 .material-icons {
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-size: 72px;
+  }
+	.scheduleLine{
+   border-bottom: 1px solid blue;
+   box-sizing: border-box;
+  }
+  .customBlock{
+  	padding: 69px;
+  	background-color: $customGreenColor;
+    color: white !important;
+    margin-top: -118px;
+  }
+  .phoneNumber{
+  	padding-left: 34px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid blue;
+    max-width: 275px;
+  }
+  .phoneIcon{
+  	position: absolute;
+    bottom: 17px;
+    left: 0;
+  }
+  @media (min-width: $tablet){
+h3, .h3 {
+  font-size: 32px;
+    }
+  }
+    @media (max-width: $tablet){
+    .fix-3-12{
+      max-width: 1180px !important;
+    }
+      .phoneIcon{
+    width: 24px !important;
+        }
+  }
+      @media (max-width: 1277px){
+h3, .h3 {
+  font-size: 30px;
+    }
+  }
+  @media (min-width: $tablet){
+    @media (max-width: 1260px){
+h3, .h3 {
+  font-size: 23px;
+    }
+        .phoneIcon{
+    width: 19px;
+          bottom: 15px;
+        }
+    }
+  }
+    @media(max-width: 600px){
+    .customBlock{
+  		padding: 30px;
+  	} 
+    h3, .h3 {
+  		font-size: 18px !important;
+    }
+    .phoneIcon{
+    	width: 18px !important;
+      bottom: 13px;
+    }
+  }
+.customMarginBottom{
+  margin-bottom: 6px !important;
+  }
+  a.button.teal:hover{
+    span{
+    color: teal !important;
+    transition: all .25s;
+    }
+  }
+}
+
+/* About Us Slider (#3) */
+[data-cid="example-xr1z9XYi-f935178d"]{
+  .controller li.selected{
+    a{
+      background-color: teal !important;
+      color: white !important;
+    }
+  }
+    .inner-165{
+    border-radius: 0;
+  }
+  .video-165{
+    border-radius: 0;
+  }
+  .img-165, .videoThumbnail-165{
+    height:100%;
+  }
+  .img-165{
+    max-width:unset;
+  }
+  .box-165{
+    .button{
+      border-radius: 0;
+      border: 1px solid $customGrayColor-2;
+      width: 160px;
+    }
+    &:before{
+      content:'';
+      position: absolute;
+      left:0;
+      right:0;
+      top: 50%;
+      border-bottom: 1px solid $customGrayColor-2;
+    }
+    @include media(618px, max) {
+      &:before{
+        border-bottom: none;
+      	border-right: none !important;
+      }   
+    }
+  }
+    .customFirstElement{
+     margin-right: 80px !important;
+     margin-left: 0 !important;
+    }
+    .customLastElement{
+     margin-right: 0 !important;
+     margin-left: 80px !important;
+    }
+  	.customMiddleElement{
+     margin-right: 80px !important;
+     margin-left: 80px !important;
+  	}
+  @media(max-width: 1405px){
+    .customFirstElement{
+     margin-right: 60px !important;
+    }
+    .customMiddleElement{
+     margin-right: 60px !important;
+     margin-left: 60px !important;
+    }
+    .customLastElement{
+     margin-left: 60px !important; 
+    }
+  }
+    @media(max-width: 1265px){
+    .customFirstElement{
+     margin-right: 40px !important;
+    }
+    .customMiddleElement{
+     margin-right: 40px !important;
+     margin-left: 40px !important;
+    }
+    .customLastElement{
+     margin-left: 40px !important; 
+    }
+  }
+    @media(max-width: 1120px){
+    .customFirstElement{
+     margin-right: 20px !important;
+    }
+    .customMiddleElement{
+     margin-right: 20px !important;
+     margin-left: 20px !important;
+    }
+    .customLastElement{
+     margin-left: 20px !important; 
+    }
+  }
+    @media(max-width: 976px){
+    .customFirstElement{
+     margin-right: 10px !important;
+    }
+    .customMiddleElement{
+     margin-right: 10px !important;
+     margin-left: 10px !important;
+    }
+    .customLastElement{
+     margin-left: 10px !important; 
+    }
+    .customPadding-4{
+    	padding: 40px !important;  
+    }
+  }
+      @media(max-width: 905px){
+    .customFirstElement{
+      width: 100px !important;
+    }
+    .customMiddleElement{
+      width: 100px !important;
+    }
+    .customLastElement{
+      width: 100px !important;
+    }
+  }
+        @media(max-width: 618px){
+    .customFirstElement{
+     	margin-right: 0 !important;
+      display: block !important;
+      width: 100px !important;
+    }
+    .customMiddleElement{
+     	margin-right: 0 !important;
+     	margin-left: 0 !important;
+      display: block !important;
+      width: 100px !important;
+    }
+    .customLastElement{
+     	margin-left: 0 !important; 
+      display: block !important;
+      width: 100px !important;
+    }
+  }
+      @media(max-width: 546px){
+        .controller li{
+         margin-bottom: 10px; 
+        }
+    .customFirstElement{
+     margin-right: 40px !important;
+    }
+    .customMiddleElement{
+     margin-right: 40px !important;
+    }
+  }
+        @media(max-width: 392px){
+    .customFirstElement{
+     margin-right: 5px !important;
+    }
+    .customMiddleElement{
+     margin-right: 5px !important;
+    }
+  }
+}
